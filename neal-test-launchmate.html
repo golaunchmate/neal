@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neal Test Demo: LaunchMate Example</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section-title {
+            font-size: 1.8em;
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .input-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .input-label {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        .input-value {
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        .output-box {
+            background: #fff;
+            padding: 30px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+        }
+        
+        .output-box h1 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        
+        .output-box h2 {
+            color: #764ba2;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        
+        .output-box h3 {
+            color: #667eea;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+        
+        .output-box p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        .output-box ul, .output-box ol {
+            margin-left: 25px;
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        .output-box li {
+            margin-bottom: 8px;
+        }
+        
+        .output-box strong {
+            color: #333;
+        }
+        
+        .output-box em {
+            color: #667eea;
+        }
+        
+        .output-box hr {
+            border: none;
+            border-top: 2px solid #e9ecef;
+            margin: 30px 0;
+        }
+        
+        .highlight {
+            background: #fff3cd;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 8px 16px;
+            background: #667eea;
+            color: white;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: transform 0.2s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 Neal Test Generator</h1>
+            <p>Personalized Manual Validation Scenarios</p>
+            <div class="badge">Demo: LaunchMate Example</div>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">📥 Tool Input</h2>
+                
+                <div class="input-box">
+                    <span class="input-label">Startup Description:</span>
+                    <p class="input-value">LaunchMate is a startup automation platform for student entrepreneurs that provides daily accountability check-ins, momentum tracking, and AI-powered coaching to help founders stay on track with customer validation and lean startup methodology</p>
+                </div>
+                
+                <div class="input-box">
+                    <span class="input-label">Current Product Idea:</span>
+                    <p class="input-value">Building an AI agent system that sends check-in reminders, tracks startup progress with momentum scoring (red/orange/green), and provides personalized coaching feedback to keep founders focused on customer validation instead of just building</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">📤 Tool Output: 5 Personalized Neal Test Scenarios</h2>
+                
+                <div class="output-box">
+                    <h1>🎯 NEAL TEST: Manually Deliver Your Service Before Building</h1>
+
+<p><strong>Your Startup:</strong> LaunchMate is a startup automation platform for student entrepreneurs that provides daily accountability check-ins, momentum tracking, and AI-powered coaching to help founders stay on track with customer validation and lean startup methodology</p>
+
+<p><strong>What You're Building:</strong> Building an AI agent system that sends check-in reminders, tracks startup progress with momentum scoring (red/orange/green), and provides personalized coaching feedback to keep founders focused on customer validation instead of just building</p>
+
+<hr>
+
+<h2>THE NEAL TEST FRAMEWORK</h2>
+
+<p>Your product sends check-in reminders and tracks progress.</p>
+
+<p><strong>The Neal Test version:</strong> YOU become the accountability coach. No technology. Just you manually doing what your product would automate.</p>
+
+<p><strong>TWO REQUIREMENTS:</strong></p>
+<ol>
+<li>✅ <strong>Manual Service Delivery</strong> - You personally do the work (no apps, no automation)</li>
+<li>✅ <strong>Customer Payment</strong> - They pay you for this manual service</li>
+</ol>
+
+<p><strong>The Goal:</strong> Prove customers will PAY for the core value BEFORE you build any technology.</p>
+
+<hr>
+
+<h2>5 CONCRETE WAYS TO RUN YOUR NEAL TEST THIS WEEK</h2>
+
+<h3>SCENARIO 1: "Daily Manual Service" - Become the Human Version of Your Product</h3>
+
+<p><strong>YOUR PITCH TO CUSTOMERS:</strong><br>
+<em>"I'm testing a service before building the tech. For the next week, I'll be your personal accountability coach. Instead of an app, you get me doing it manually. $30-50/week for 7 days."</em></p>
+
+<p><strong>WHAT YOU ACTUALLY DO:</strong><br>
+Text founders daily with check-in questions, manually track their answers in a spreadsheet, and send them personal coaching feedback</p>
+
+<p><strong>SPECIFIC DAILY ROUTINE:</strong></p>
+<ul>
+<li><strong>Morning (8-9am):</strong> Text each paying customer with their check-in or task for the day</li>
+<li><strong>Midday (12-1pm):</strong> Process their responses manually (spreadsheet, notes, whatever works)</li>
+<li><strong>Evening (6-7pm):</strong> Send them personalized feedback, updates, or next steps</li>
+<li><strong>Track everything:</strong> Keep a spreadsheet of time spent per customer and what they ask for</li>
+</ul>
+
+<p><strong>TARGET: 3-5 PAYING CUSTOMERS</strong> by Wednesday this week</p>
+<ul>
+<li>Reach out to college students you know personally</li>
+<li>Show up where they gather: campus library, student center, or dining hall</li>
+<li>Use your existing networks: text friends who fit your target market</li>
+</ul>
+
+<p><strong>PAYMENT:</strong> Collect $30-50/week upfront via Venmo, PayPal, or Stripe before you start</p>
+
+<p><strong>WHAT YOU'LL LEARN:</strong></p>
+<ul>
+<li>Do customers actually engage when YOU reach out daily? (Tests demand for daily interaction)</li>
+<li>What time of day gets best response rates? (Informs product notification timing)</li>
+<li>What questions do they ask repeatedly? (These become your product features)</li>
+<li>Do they want to pay for week 2? (The ultimate validation)</li>
+</ul>
+
+<hr>
+
+<h3>SCENARIO 2: "On-Call Service" - Be Their Personal Assistant for a Week</h3>
+
+<p><strong>YOUR PITCH:</strong><br>
+<em>"For $30-50/week, I'll be your on-call accountability coach for one week. Text me whenever you need help, and I'll handle it manually within 30 minutes. 9am-9pm availability."</em></p>
+
+<p><strong>WHAT YOU ACTUALLY DO:</strong><br>
+Set up a dedicated communication channel (WhatsApp, text, or Slack DM) where customers can request your service anytime during your availability window.</p>
+
+<p><strong>WHEN THEY TEXT YOU:</strong></p>
+<ol>
+<li>Drop what you're doing and respond within 30 minutes</li>
+<li>Text founders daily with check-in questions, manually track their answers in a spreadsheet, and send them personal coaching feedback</li>
+<li>Document: What triggered them to reach out? What exact task did they need?</li>
+<li>Follow up: "Did this solve your problem? What else do you need?"</li>
+</ol>
+
+<p><strong>EXAMPLE INTERACTION:</strong><br>
+Customer texts: <em>"I need to stay on track with your startup progress"</em><br>
+You respond: <em>"Got it! Let me handle that manually. Give me 15 minutes."</em><br>
+You manually do the work using phone calls, spreadsheets, research, whatever it takes.<br>
+You text back: <em>"Done! Here's what I did: [you explain exactly what you did manually]. Anything else?"</em></p>
+
+<p><strong>TARGET: 2-3 CUSTOMERS PAYING $30-50/week EACH</strong></p>
+
+<p><strong>WHAT YOU'LL LEARN:</strong></p>
+<ul>
+<li>How often do customers actually need the service? (Reveals usage frequency)</li>
+<li>What times of day do they request help most? (Peak usage insights)</li>
+<li>Can you deliver fast enough manually to meet their expectations?</li>
+<li>What edge cases appear that you didn't plan for? (Product design insights)</li>
+</ul>
+
+<hr>
+
+<h3>SCENARIO 3: "Pre-Sell Then Deliver" - Take Payment Before Figuring Out How</h3>
+
+<p><strong>YOUR PITCH (focused on OUTCOME, not process):</strong><br>
+<em>"I will stay on track with your startup progress for $30-50/week. Here's what you get: daily accountability and personalized coaching. If you want this, pay now via [YOUR VENMO/STRIPE LINK] and I'll deliver within 48 hours."</em></p>
+
+<p><strong>SPECIFIC PITCH FOR YOUR STARTUP:</strong><br>
+<em>"I will stay on track with your startup progress every single day for one week. No apps, no complexity - just daily accountability and personalized coaching that actually helps you make progress. $30-50/week. If interested, pay here: [YOUR VENMO/STRIPE LINK]"</em></p>
+
+<p><strong>HOW TO SEND THIS:</strong></p>
+<ol>
+<li>Write the pitch in a Google Doc or simple landing page</li>
+<li>Add your Venmo handle or Stripe payment link</li>
+<li>Send to 20-30 college students via:
+<ul>
+<li>Direct DM on social media</li>
+<li>Text message to your phone contacts</li>
+<li>Post in relevant online communities (Reddit, Discord, Facebook groups)</li>
+</ul>
+</li>
+<li>When someone pays → manually figure out how to deliver on your promise</li>
+<li>Document: How long did it take? What was hard? What would customers pay monthly for this automated?</li>
+</ol>
+
+<p><strong>WHAT YOU'LL LEARN:</strong></p>
+<ul>
+<li>Does your value proposition convert strangers to buyers?</li>
+<li>Can you actually deliver what you promised using manual methods?</li>
+<li>What's your time cost vs what they paid? (If you can't make $20/hour manually, automation won't fix it)</li>
+<li>What do customers request that wasn't in your original pitch? (Missing features)</li>
+</ul>
+
+<hr>
+
+<h3>SCENARIO 4: "Deep Dive Pilot" - Go All-In with 1-2 Power Users</h3>
+
+<p><strong>YOUR PITCH:</strong><br>
+<em>"I'm building a solution to help with needing help with stay on track with your startup progress. Before I build technology, I want to deeply understand the problem. Can I be your personal accountability coach for one week? I'll be on-call to stay on track with your startup progress. $100-150 for exclusive beta access."</em></p>
+
+<p><strong>WHAT YOU ACTUALLY DO:</strong><br>
+Instead of serving many customers superficially, embed yourself in 1-2 ideal customers' daily workflows:</p>
+
+<ul>
+<li>Set up daily check-in calls (15-30 minutes each)</li>
+<li>Be available via text for urgent requests throughout the day</li>
+<li>Shadow them or observe their workflow if possible</li>
+<li>Manually solve every problem that your product would eventually automate</li>
+<li>Document EVERYTHING: what triggers their need, what frustrates them, what they love</li>
+</ul>
+
+<p><strong>TARGET: 1-2 PERFECT-FIT CUSTOMERS</strong> paying $100-150 each for intensive week</p>
+
+<p><strong>WHO TO APPROACH:</strong><br>
+Look for college students who:</p>
+<ul>
+<li>Have this problem ACUTELY (it's painful for them daily)</li>
+<li>Are willing to pay premium for a solution</li>
+<li>Will give you brutally honest feedback</li>
+</ul>
+
+<p><strong>WHAT YOU'LL LEARN:</strong></p>
+<ul>
+<li>What do power users actually need vs what you assumed?</li>
+<li>What triggers cause them to need the service? (Product notification design)</li>
+<li>What makes them stop using it mid-week? (Friction points to eliminate)</li>
+<li>What would they pay monthly for this automated? (Pricing insights)</li>
+</ul>
+
+<hr>
+
+<h3>SCENARIO 5: "Pop-Up Service Event" - Physical Location, Immediate Payment</h3>
+
+<p><strong>THE SETUP:</strong><br>
+Set up at a specific location where college students physically gather and deliver your service on-the-spot for immediate cash payment.</p>
+
+<p><strong>WHERE TO GO:</strong><br>
+Based on your target customers (college students), set up at:</p>
+<ul>
+<li>campus library, student center, or dining hall</li>
+<li>Pick a 3-hour time block this week when foot traffic is highest</li>
+</ul>
+
+<p><strong>YOUR SIGNAGE:</strong><br>
+Create a simple sign or table tent:</p>
+<pre>ACCOUNTABILITY COACH SERVICE
+ACCOUNTABILITY COACH FOR HIRE
+$15 for immediate service</pre>
+
+<p><strong>YOUR APPROACH SCRIPT:</strong><br>
+Walk up to people: <em>"Hey, are you a college student? I'm testing a service that helps with needing help with stay on track with your startup progress. Want to try it right now for $15?"</em></p>
+
+<p><strong>WHAT YOU DELIVER ON-THE-SPOT (10-minute service):</strong><br>
+Text founders daily with check-in questions, manually track their answers in a spreadsheet, and send them personal coaching feedback - but done right there in person within 10 minutes.</p>
+
+<p><strong>EXAMPLE:</strong><br>
+Customer pays $15 cash → You spend 10 minutes doing the manual service → They see immediate value → Hand them a card: "Want this every day? $40/week - text me at [YOUR NUMBER]"</p>
+
+<p><strong>TARGET: 5-10 CUSTOMERS</strong> in 3-hour window (roughly 1 customer every 20-30 minutes)</p>
+
+<p><strong>PAYMENT:</strong> Cash or Venmo immediately after each service</p>
+
+<p><strong>WHAT YOU'LL LEARN:</strong></p>
+<ul>
+<li>Will strangers pay for immediate service? (Tests impulse purchase)</li>
+<li>What's your conversion rate? (Approaches → purchases)</li>
+<li>What objections come up when they have to decide NOW?</li>
+<li>Do any sign up for ongoing weekly service? (If 30%+ do, that's strong validation)</li>
+</ul>
+
+<hr>
+
+<h2>🚀 YOUR EXECUTION CHECKLIST</h2>
+
+<p><strong>PICK ONE SCENARIO</strong> and execute this week:</p>
+
+<p><strong>Monday:</strong> Choose scenario + identify 5 specific target customers<br>
+<strong>Tuesday-Wednesday:</strong> Pitch them (goal: 3+ paying customers by Wednesday night)<br>
+<strong>Thursday-Saturday:</strong> Deliver the manual service, track every hour spent<br>
+<strong>Sunday:</strong> Document learnings (INSIGHT + SHIFT)</p>
+
+<p><strong>DOCUMENT YOUR LEARNINGS:</strong></p>
+<ul>
+<li><strong>INSIGHT:</strong> What specific discovery did you make? 
+<ul><li>Example: "Customers said they wanted daily check-ins, but only 1 out of 5 actually responded when I texted"</li></ul>
+</li>
+<li><strong>SHIFT:</strong> What concrete change are you making?
+<ul><li>Example: "Pivoting from daily to weekly check-ins with optional mid-week follow-ups"</li></ul>
+</li>
+</ul>
+
+<hr>
+
+<h2>💡 SUCCESS BENCHMARKS</h2>
+
+<p><strong>IMMEDIATE VALIDATION (this week):</strong></p>
+<ul>
+<li>🎯 3 paying customers = Your pitch converts, keep testing</li>
+<li>🎯 Can deliver in under 2 hours per customer = Service is feasible</li>
+<li>🎯 At least 1 customer asks to continue = Real demand exists</li>
+</ul>
+
+<p><strong>STRONG VALIDATION (2-4 weeks):</strong></p>
+<ul>
+<li>🎯 10 paying customers total = Enough validation to consider building</li>
+<li>🎯 30%+ renewal rate = Customers see ongoing value</li>
+<li>🎯 Customers refer others = Word-of-mouth traction</li>
+</ul>
+
+<hr>
+
+<h2>🛑 REALITY CHECK</h2>
+
+<p><strong>If you can't get 3 people to pay $30-50/week for your MANUAL service...</strong><br>
+→ They won't pay for your automated product either</p>
+
+<p><strong>If manual delivery takes you 4+ hours per customer...</strong><br>
+→ Your margins won't work even with automation</p>
+
+<p><strong>If customers don't renew for week 2...</strong><br>
+→ They won't stay subscribed to your SaaS</p>
+
+<p><strong>The Neal Test tells you these truths BEFORE you waste months building.</strong></p>
+
+<hr>
+
+<p>🎯 <strong>Your commitment:</strong> No technology building until you've manually delivered to 10 paying customers.</p>
+
+<p>Pick ONE scenario. Execute this week. Report back with your INSIGHT + SHIFT.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>What is the Neal Test?</strong></p>
+            <p>A lean startup methodology that requires founders to manually deliver their service AND get customers to pay BEFORE building any technology. This validates real demand and teaches critical lessons about the problem space.</p>
+            <a href="https://golaunchmate.github.io/neal" class="cta-button">← Back to Neal Test Home</a>
+        </div>
+    </div>
+</body>
+</html>
